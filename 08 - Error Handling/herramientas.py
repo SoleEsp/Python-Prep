@@ -99,3 +99,6 @@ class Herramientas:
         if (numero > 1):
             numero = numero * self.__factorial(numero - 1)
         return numero
+
+l=Herramientas([2,3,4,21])
+print(l.verifica_primo())
